@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sale</title>
+    <title>Contact</title>
 </head>
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -131,34 +131,42 @@
   </header>
   <div id="burger-menu-panel">
     <a href="../index.html">Home</a>
-    <a href="#">Sale</a>
+    <a href="sale.html">Sale</a>
     <a href="winkelmand.html">Winkelmand</a>
-    <a href="contact.html">Contact</a> 
+    <a href="#">Contact</a> 
   </div>
-  <div class="Logo-h1">
-    <h1>Heavenly Socks</h1>
-  </div>
-  <div style="display: flex; justify-content: space-around;">
-    <div class="Sale-blockes">
-      <h1>Sokken</h1>
-      <p class="Sale-img">Grappige, gekke en vrolijke sokken koop je hier!
-        Dames en heren: kijk eens wat vaker naar beneden. De wereld ligt aan je voeten. Een vrolijke, grappige en knotsgekke wereld als het aan ons ligt. Met kleurrijke sokken met de gekste en leukste prints. Geef je outfit nét dat beetje meer schwung, een snufje panache, een greintje eigengereidheid. Of zie het gewoon als toffe sokken. Niets meer, niets minder. Maar je wordt er geheid vrolijk van. En er is voor ieder wat wils. Nooit meer zoeken, altijd lachen. Oh ja, ze zijn ook nog eens snel in huis. Dus bekijk het aanbod en koop je nieuwe, favoriete paar sokken hier online of kom langs in onze winkel.
-        </p>
+  <div id="Content-contact">
+    <h1>Feedback formulier</h1>
+    <form style="display: flex; justify-content: space-around;">
+      <div>
+        <!-- <label for="fname">Naam:</label><br> -->
+        <input class="input-text" type="text" id="fname" placeholder="Vul uw naam in"><br>
+        <!-- <label for="email">Email:</label><br> -->
+        <input class="input-text" type="text" id="email" placeholder="Vul uw email in"><br>
+        <!-- <label for="nummer">Telefoon nummer:</label><br> -->
+        <input class="input-text" type="text" id="nummer" placeholder="Vul uw telefoon nummer in"><br>
+        <input class="input-text" type="text" id="nummer" placeholder="Onderwerp"><br>
+        <br>
+        <br>
+        <br>
+        <label class="verstuur-item" for="agreeCheckbox">
+            <input type="checkbox" id="agreeCheckbox" required> Ik ga akkoord met het gebruiken van mijn gegevens
+        </label>
+        <br><br>
+        <input class="verstuur-item" type="submit" id="verstuur" name="verstuur" value="Verstuur">
+        <label for="verstuur"></label>
+      </div>
+      <div>
+        <!-- <label for="opmerkingen:">Vragen/Opmerkingen:</label><br> -->
+        <textarea id="opmerkingen" placeholder="Vragen/Opmerkingen"></textarea>
+      </div>
+        
+      </form>
     </div>
-    <div class="Sale-blockes">
-      <h1>Heren</h1>
-      <img class="Sale-img" src="../fotos/Sokken_heren.jpg">
-    </div>
-    <div class="Sale-blockes">
-      <h1>Dames</h1>
-      <img class="Sale-img" src="../fotos/Sokken_dames.jpg">
-    </div>
-
-    </div>
-  <footer>
+  <!-- <footer>
     <h4>Heavenly Socks, Pieter Vreedeplein 161a, 5038BW, Tilburg.</h4>
     <h4>WhatsApp: 06-12345678, info@heavenlysocks.nl</h4>
-  </footer>
+  </footer> -->
 </body>
 <script src="../js/BurgerMenu.js"></script>
 </html>

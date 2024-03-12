@@ -21,7 +21,7 @@ header{
     align-items: center;
     /* background-color: #2A988A; */
     background: linear-gradient(90deg, #264653 0%, #2A988A 100%);
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0px 0px 5px black;
 }
 header input {
     width: 70vw;
@@ -136,7 +136,60 @@ header input {
     width: 30vw;
     border-radius: 10px;
 }
-
+#Content-contact{
+    /* display: flex;
+    justify-content: space-around; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+    background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60vw;
+    border-radius: 20px;
+}
+#Content-contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#verstuur{
+    font-size: 50px;
+    background: linear-gradient(90deg, #264653 0%, #2A988A 100%);
+    border-radius: 15px;
+    border: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#verstuur:hover{
+    background: linear-gradient(90deg,#d3ee82 0%, #EF9D61 100%);
+    color: white;
+    
+}
+.input-text{
+    border-radius: 5px;
+    height: 5vh;
+    width: 25vw;
+    background-color: #2A988A;
+    border: solid 2px #264653;
+}
+#opmerkingen{
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 45vh;
+    width: 25vw;
+    background-color: #2A988A;
+    border: solid 2px #264653;
+}
+.verstuur-item, .input-text{
+    margin: 15px;
+}
 footer{
     display: flex;
     justify-content: space-around;
