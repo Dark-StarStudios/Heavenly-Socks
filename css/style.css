@@ -132,9 +132,52 @@ header input {
     text-align: center;
     border-radius: 20px;
 }
+.Sale-blockes:hover{
+    background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
+    color: white;
+}
 .Sale-img{
     width: 30vw;
     border-radius: 10px;
+}
+.Sale-text{
+    width: 30vw;
+    font-size: 20px;
+    text-align: left;
+}
+.sale-position{
+    display: flex;
+    justify-content: space-around;
+}
+#Filteren{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* width: 60vw; */
+    /* text-align: center; */
+    border-radius: 20px;
+    width: 15vw;
+    padding: 25px;
+}
+.maat-str-1{
+    display: flex;
+    justify-content: space-between;
+}
+.maat-str-0{
+    display: flex;
+}
+.maat-str-0 input, .maat-str-0 p, .maat-str-1 h4, #Filteren h2, #Filteren h3{
+    margin: 10px;
+}
+#Goeder-lijst{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    width: 79vw;
 }
 #Content-contact{
     /* display: flex;
@@ -190,6 +233,8 @@ header input {
 .verstuur-item, .input-text{
     margin: 15px;
 }
+
+
 footer{
     display: flex;
     justify-content: space-around;
