@@ -9,7 +9,7 @@
     margin-left: 25px;
 
 }
-.Home-text, footer, .Sale-blockes{
+.Home-text, footer, .Sale-blockes, #Content-contact, #Goeder-lijst{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -137,17 +137,23 @@ header input {
     color: white;
 }
 .Sale-img{
-    width: 30vw;
+    width: 20vw;
     border-radius: 10px;
 }
 .Sale-text{
-    width: 30vw;
-    font-size: 20px;
+    width: 20vw;
+    font-size: 16px;
     text-align: left;
 }
 .sale-position{
     display: flex;
     justify-content: space-around;
+}
+.Sale-panels{
+    display: flex; 
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 #Filteren{
     font-family: Arial, Helvetica, sans-serif;
@@ -173,16 +179,42 @@ header input {
     margin: 10px;
 }
 #Goeder-lijst{
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
     background-color: white;
     border-radius: 20px;
     margin: 15px;
     width: 79vw;
 }
+.Goeder-blok{
+    border: gray 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    height: auto;
+    width: 18vw;
+}
+.Goeder-blok img{
+    width: 15vw;
+    margin: 20px;
+}
+.Goeder-blok h4, .Goeder-blok p, .Goeder-blok h1{
+    margin: 20px;
+}
+.Goeder-blok h1{
+    color: #E26F51;
+    text-align: right;
+}
+.Goeder-blok:hover{
+    background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
+    color: white;
+}
+.Goeder-blok:hover h1{
+    color: white;
+}
+
 #Content-contact{
     /* display: flex;
     justify-content: space-around; */
-    font-family: Arial, Helvetica, sans-serif;
     /* background-color: white; */
     background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
     color: white;
