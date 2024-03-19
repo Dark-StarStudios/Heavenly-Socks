@@ -128,9 +128,10 @@ header input {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    /* width: 60vw; */
+    color: black;
     text-align: center;
     border-radius: 20px;
+    text-decoration: none;
 }
 .Sale-blockes:hover{
     background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
@@ -192,10 +193,13 @@ header input {
     margin: 20px;
     height: auto;
     width: 18vw;
+    text-decoration: none;
+    color: black;
 }
 .Goeder-blok img{
     width: 15vw;
     margin: 20px;
+    border-radius: 15px;
 }
 .Goeder-blok h4, .Goeder-blok p, .Goeder-blok h1{
     margin: 20px;
@@ -211,7 +215,54 @@ header input {
 .Goeder-blok:hover h1{
     color: white;
 }
-
+#Goeder-container{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70vw;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Goeder-container h2{
+    color: rgb(76, 76, 76);
+}
+#Goeder-container img{
+    margin: 20px;
+    width: 500px;
+    height: auto;
+}
+.selectors{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 100px;
+    background-color: white;
+}
+.selectors:hover{
+    background-color: rgb(224, 224, 224);
+}
+#InWinkelmand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    width: 15vw;
+    text-align: center;
+    background: linear-gradient(90deg, #EF9D61 0%, #E26F51 100%);
+}
+#InWinkelmand:hover{
+    background: linear-gradient(90deg, #264653 0%, #2A988A 100%);
+}
 #Content-contact{
     /* display: flex;
     justify-content: space-around; */
@@ -265,8 +316,18 @@ header input {
 .verstuur-item, .input-text{
     margin: 15px;
 }
-
-
+th{
+    font-family: Highbright-Regular, Highbright;
+}
+th,td{
+    font-size: 35px;
+    padding-right: 150px;
+    padding-left: 15px;
+}
+td{
+ /* border: #264653 solid 2px;
+ border-radius: 20px; */
+}
 footer{
     display: flex;
     justify-content: space-around;
