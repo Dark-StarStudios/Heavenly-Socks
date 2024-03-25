@@ -263,6 +263,12 @@ header input {
 #InWinkelmand:hover{
     background: linear-gradient(90deg, #264653 0%, #2A988A 100%);
 }
+#text-Niks{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: gray;
+}
 #Content-contact{
     /* display: flex;
     justify-content: space-around; */
@@ -298,10 +304,37 @@ header input {
     color: white;
     
 }
+#verstuur2{
+    font-size: 20px;
+    background: linear-gradient(90deg, #264653 0%, #2A988A 100%);
+    border-radius: 15px;
+    border: none;
+    /* padding-top:5px;
+    padding-bottom:5px; */
+    margin-left: 10px;
+    height: 5vh;
+    padding-left:15px;
+    padding-right:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#verstuur2:hover{
+    background: linear-gradient(90deg,#d3ee82 0%, #EF9D61 100%);
+    color: white;
+    
+}
 .input-text{
     border-radius: 5px;
     height: 5vh;
     width: 25vw;
+    background-color: #2A988A;
+    border: solid 2px #264653;
+}
+.input-email{
+    border-radius: 5px;
+    height: 5vh;
+    width: 50vw;
     background-color: #2A988A;
     border: solid 2px #264653;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heren</title>
+    <title>Soks</title>
     <script src="../js/cookie.js"></script>
 </head>
 <link rel="stylesheet" href="../css/style.css">
@@ -136,104 +136,43 @@
     <a href="winkelmand.html">Winkelmand</a>
     <a href="contact.html">Contact</a> 
   </div>
-  <div class="sale-position">
-    <div id="Filteren">
-      <h2>Filteren</h2>
-      <hr align="center" width="auto" size="2" color="#808080" />
-      <h3>maat</h3>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>4XL</p>
-          </div>
-          <h4>(9)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>52</p>
-          </div>
-          <h4>(3)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>51</p>
-          </div>
-          <h4>(13)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>50</p>
-          </div>
-          <h4>(95)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>49</p>
-          </div>
-          <h4>(164)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>48</p>
-          </div>
-          <h4>(379)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>47</p>
-          </div>
-          <h4>(440)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>46</p>
-          </div>
-          <h4>(1168)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>45</p>
-          </div>
-          <h4>(1186)</h4>
-      </div>
-      <div class="maat-str-1">
-          <div class="maat-str-0">
-              <input type="checkbox">
-              <p>44</p>
-          </div>
-          <h4>(1180)</h4>
-      </div>
-  </div>
-  <div id="Goeder-lijst">
-    <a href="soks.html" class="Goeder-blok">
-      <img src="../fotos/Soks-1.png" alt="Soks" />
-      <hr align="center" width="auto" size="2" color="#808080" />
-      <h4>Wollen sokken grijs</h4>
-      <p>Zachte, pluizige sokken die je voeten omhullen als een warme wolk, zorgen voor ultiem comfort en gezelligheid op elke dag.</p>
-      <h1>€4,99</h1>
-    </a>
-    <a href="soks1.html" class="Goeder-blok">
-      <img src="../fotos/Soks-2.png" alt="Soks" />
-      <hr align="center" width="auto" size="2" color="#808080" />
-      <h4>Wollen sokken paars</h4>
-      <p>Zachte, pluizige sokken die je voeten omhullen als een warme wolk, zorgen voor ultiem comfort en gezelligheid op elke dag.</p>
-      <h1>€4,99</h1>
-    </a>
-    <a href="soks2.html" class="Goeder-blok">
+  <div id="Goeder-container">
+    <div style="display: flex; align-items: center; ">
       <img src="../fotos/Soks-3.png" alt="Soks" />
-      <hr align="center" width="auto" size="2" color="#808080" />
-      <h4>Wollen sokken geel</h4>
-      <p>Zachte, pluizige sokken die je voeten omhullen als een warme wolk, zorgen voor ultiem comfort en gezelligheid op elke dag.</p>
-      <h1>€4,99</h1>
-    </a>
+      <div style="display: flex; flex-direction: column; margin-left: 20px;">
+        <h1 id="Soks">Wollen sokken geel</h1>
+        <hr align="center" width="475px" size="2" color="#808080" />
+        <h2>Zachte, pluizige sokken die je voeten omhullen als een warme wolk, zorgen voor ultiem comfort en gezelligheid op elke dag.</h2>
+        <h1 id="prijs" style="margin-top: 50px;">€4,99</h1>
+        <div style="display: flex;">
+            <h3 style="color: rgb(76, 76, 76); margin-right: 5px;">Kleur:</h3>
+            <h3>geel</h3>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <h2>Quantity:</h2>
+            <select name="quantity" id="quantity" class="selectors">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <h2>Maat:</h2>
+            <select name="size" id="size" class="selectors">
+                <option value="35-38">35-38</option>
+                <option value="39-42">39-42</option>
+                <option value="43-46">43-46</option>
+                <option value="47-49">47-49</option>
+            </select>
+        </div>
+        <a onclick="naarWinkelmand();" id="InWinkelmand">In winkelmand</a>
+      </div>
+    </div>
   </div>
   </div>
   <footer>
@@ -242,4 +181,5 @@
   </footer>
 </body>
 <script src="../js/BurgerMenu.js"></script>
+<script src="../js/Soks.js"></script>
 </html>
