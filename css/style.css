@@ -119,9 +119,6 @@ header input {
     /* height:auto; */
     /* height: 250px; */
 }
-#Home-content{
-
-}
 .Sale-blockes{
     background-color: white;
     padding: 15px;
@@ -233,7 +230,24 @@ header input {
     width: 500px;
     height: auto;
 }
-.selectors{
+.Goeder-cls-1{
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 20px;
+}
+
+.Goeder-cls-0{
+    display: flex;
+    align-items: center;
+}
+.Goeder-cls-2{
+    display: flex;
+}
+.Goeder-cls-3{
+    display: flex;
+    align-items: center;
+}
+.selectors, #Filteren-select{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin: 10px;
@@ -242,7 +256,7 @@ header input {
     border-radius: 100px;
     background-color: white;
 }
-.selectors:hover{
+.selectors:hover, #Filteren-select:hover{
     background-color: rgb(224, 224, 224);
 }
 #InWinkelmand{
@@ -361,6 +375,16 @@ td{
  /* border: #264653 solid 2px;
  border-radius: 20px; */
 }
+.form-cls-0{
+    display: flex; 
+    justify-content: space-around;
+}
+.opmerkingen-cls-1{
+    display: none;
+}
+#Filteren-select{
+    display: none;
+}
 footer{
     display: flex;
     justify-content: space-around;
@@ -372,16 +396,153 @@ margin: 25px;
 }
 
 
-
-/* @media(min-width:450px) {
-    .Home-text img{
-        height: 250px;
-    } 
-}
-@media(max-width:450px) {
+@media(max-width:850px) {
     .Home-text{
+        background-color: white;
+        padding: 15px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 90vw;
+    }
+    .Home-text img{
+        width: 90vw;
+        height: auto;
+    }  
+    .Sale-panels{
+        display: flex; 
+        /* justify-content: space-around; */
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Sale-img{
+        width: 70vw;
+    }
+    .Sale-text{
+        width: 70vw;
+        font-size: 16px;
+        text-align: left;
+    }
+    #Content-contact{
+        padding: 5px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 90vw;
+    }
+    #Goeder-container{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90vw;
+    }
+    #Goeder-container img{
+        margin: 0px;
+        width: 90vw;
+        height: auto;
+        border-radius: 20px;
+    }
+    .Goeder-cls-1{
+        display: flex; 
+        flex-direction: column; 
+        margin-left: 0px;
+        margin: 10px;
+    }
+    #InWinkelmand{
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 100px;
+        width: 50vw;
+    }
+    .form-cls-0{
+        display: flex; 
         flex-direction: column;
     }
+    .input-text{
+        height: 5vh;
+        width: 80vw;
+        margin-right: 15px;
+    }
+    .opmerkingen-cls-1{
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .opmerkingen-cls-0{
+        display: none;
+    }
+    #opmerkingen{
+        margin-top: 15px;
+        height: 90vh;
+        width: 80vw;
+    }
+    #Filteren{
+        width: 50vw;
+    }
+}
+@media(max-width:1000px) {
+    th{
+        font-family: Highbright-Regular, Highbright;
+    }
+    th,td{
+        font-size: 30px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #Filteren-select{
+        display: block;
+    }
+    .maat-str-1{
+        display: none;
+    }
+    .sale-position{
+        display: inline;
+    }
+    #Filteren{
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+        width: 85vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #Goeder-lijst{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90vw;
+        margin-bottom: 10px;
+    }
+    .Goeder-blok{
+        border: gray 1px solid;
+        border-radius: 20px;
+        margin: 20px;
+        height: auto;
+        width: 80vw;
+        text-decoration: none;
+        color: black;
+    }
+    .Goeder-blok img{
+        width: 70vw;
+        margin: 20px;
+        border-radius: 15px;
+    }
+}
+@media(max-width:1380px) {
+    .Goeder-cls-0{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Goeder-cls-3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/* 
+
     .Home-text img{
         width: auto;
         height: auto;
