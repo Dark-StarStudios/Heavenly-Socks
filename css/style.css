@@ -50,6 +50,7 @@ header input {
     color: white;
 }
 #burger-menu-panel {
+    z-index: 100;
     display: none;
     position: absolute;
     height: auto;
